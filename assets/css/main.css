@@ -30,6 +30,27 @@
 		list-style: none;
 	}
 
+	nav {
+		z-index: 2;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		background-color: #f4f4f4;
+	}
+	nav ul {
+		margin-bottom: 0;
+		padding: .5rem 2.25rem;
+		text-align: right;
+	}
+	nav li {
+		display: inline-block;
+	}
+
+	nav a {
+		border-bottom-width: 0;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
@@ -2797,6 +2818,7 @@
 /* Header */
 
 	#header {
+		margin-top: 44px;
 		padding: 9em 0 9em 0 ;
 		background-color: #ce171e;
 		color: rgba(255, 255, 255, 0.75);
