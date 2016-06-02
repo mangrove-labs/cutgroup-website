@@ -69,7 +69,8 @@
 
 		&:hover {
 			border-bottom-color: transparent !important;
-			color: _palette(accent3);
+			color: #ce171e;
+			
 		}
 	}
 
@@ -506,7 +507,7 @@
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 
 			&:before {
-				font-size: 4em;
+				font-size: 3em;
 				line-height: 1em;
 			}
 		}
@@ -628,11 +629,11 @@
 					border-radius: _size(border-radius);
 					border: solid 1px _palette(border);
 					display: inline-block;
-					height: 8em;
-					line-height: 8em;
+					height: 6em;
+					line-height: 6em;
 					margin: 0;
 					text-align: center;
-					width: 8em;
+					width: 6em;
 
 					&:before {
 						@include vendor('transform', 'rotate(-45deg)');
