@@ -193,6 +193,41 @@
 	.align-right {
 		text-align: right;
 	}
+	
+	nav {
+  	
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    
+    ul {
+      
+      margin-bottom: 0;
+      padding: .5rem 2.25rem;
+      text-align: right;
+      
+      li {
+        
+        padding-left: 0.5em;
+        display:inline-block;
+        
+        a {
+          
+          text-decoration: none;
+          border-bottom:none;
+          
+          &:hover {
+            
+            color: #ce171e;
+          }
+        }
+      }
+    }
+    
+	}
 
 /* Section/Article */
 
