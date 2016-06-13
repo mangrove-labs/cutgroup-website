@@ -1,3 +1,6 @@
+# cutgroup.miami
+
+## Local Installation
 The website uses jekyll. Folks working on this can install jekyll for their personal machines by following instructions 
 
 1. Open command line, terminal, git bash, or whatever is appropriate for your OS.
