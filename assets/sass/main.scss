@@ -293,11 +293,9 @@
 	
 	#two {
   	
-  	h1 {
-    	
-    	margin-left:0;
-    	padding-left:0;
-  	}
+	  	h1 {
+	    	margin: 0;
+	  	}
 	}
 
 /* Form */
@@ -575,14 +573,12 @@
 		padding-left: 1.25em;
 
 		li {
-			padding-left: 0.25em;
+			padding: 0.8em 0 0 0.25em;
 		}
 	}
 	
 	.two-ol {
-  			
-		width:80%;
-		margin-left: 6em;
+		width:100%;
 	}
 	
 
@@ -1245,7 +1241,7 @@
 		/* Two */
 
 			#two {
-				text-align: center;
+				text-align: left;
 				
 			}
 			
